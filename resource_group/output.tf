@@ -1,9 +1,9 @@
-output "org" {
+output "rg" {
     description = "resource group name"
-    value = azurerm_resource_group.prg.name
+    value = azurerm_resource_group.rg
 }
 
-output "oloc" {
+output "location" {
     description = "location name"
-    value = azurerm_resource_group.prg.location  
+    value = azurerm_resource_group.rg.location  
 }
