@@ -7,5 +7,4 @@ resource "azurerm_network_interface" "nic" {
       subnet_id = var.subnet_id
       private_ip_address_allocation = "Dynamic"
     }
-    depends_on = [ azurerm_subnet.subnet ]
 }
