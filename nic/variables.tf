@@ -2,4 +2,4 @@ variable "rg_name" {}
 variable "location" {}
 variable "nic_name" {}
 variable "subnet_id" {}
-variable "public_ip" {}
+variable "public_ip_adress_id" {}
