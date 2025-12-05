@@ -1,8 +1,8 @@
 resource "azurerm_virtual_machine" "vm" {
   name                  = var.vm_name
-  location              = module.resource_group.location
+  location              = var.location
   resource_group_name   = var.rg_name
-  network_interface_ids = [module.nic.nic_id]
+  network_interface_ids = var.network_interface_ids
   vm_size               = var.vm_size
   
   # Uncomment this line to delete the OS disk automatically when deleting the VM
