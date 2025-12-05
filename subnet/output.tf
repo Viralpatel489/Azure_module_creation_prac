@@ -8,7 +8,7 @@ output "subnet_prefix" {
     value = azurerm_subnet.subnet.address_prefixes
 }
 # Inside Azure_module_creation_prac/subnet/outputs.tf
-output "id" {
+output "subnet_id" {
   description = "The ID of the Subnet."
   value       = azurerm_subnet.subnet.id
 }
