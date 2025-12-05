@@ -1,12 +1,3 @@
-variable "pip_name" {}
-variable "location" {}
-variable "allocation_method" {}
-variable "pip_sku" {}
-
-
-
-
-
 variable "rg_name" {}
 variable "vm_name" {}
 variable "vm_size" {}
