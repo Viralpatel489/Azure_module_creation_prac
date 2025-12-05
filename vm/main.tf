@@ -31,6 +31,6 @@ resource "azurerm_virtual_machine" "vm" {
   os_profile_linux_config {
     disable_password_authentication = var.disable_password_authentication
   }
-public_ip_address     = azurerm_public_ip.pip.ip_address
+
   
 }
