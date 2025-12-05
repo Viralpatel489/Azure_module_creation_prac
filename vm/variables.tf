@@ -32,3 +32,7 @@ variable "public_ip_address" {
     description = "The public IP address of the Azure VM."
     type        = string
 }
+
+variable "network_interface_ids" {
+  type = list(string)
+}
