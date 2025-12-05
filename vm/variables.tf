@@ -1,4 +1,5 @@
 variable "rg_name" {}
+variable "location" {}
 variable "vm_name" {}
 variable "vm_size" {}
 variable "delete_os_disk" {
