@@ -31,6 +31,7 @@ variable "managed_disk_type" {}
 variable "public_ip_address" {
     description = "The public IP address of the Azure VM."
     type        = string
+  default = ""
 }
 
 variable "network_interface_ids" {
