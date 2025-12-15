@@ -4,5 +4,5 @@ output "nsg" {
     sensitive = false
 }
 output "nsg_id" {
-  value = azurerm_network_security_group.your_nsg_resource_name.id
+  value = azurerm_network_security_group.nsg.id
 }
