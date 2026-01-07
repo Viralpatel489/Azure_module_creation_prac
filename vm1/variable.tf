@@ -13,6 +13,11 @@ variable "admin_username" {
     type        = string
   
 }
+variable "ssh_public_key" {
+  description = "this var is for ssh public key file used by devops agent"
+  type = string
+}
+
 variable "rg_name" {
     description = "resource group name"
     type = string
