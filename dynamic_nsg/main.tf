@@ -1,7 +1,7 @@
 resource "azurerm_network_security_group" "nsg" {
   name                = var.nsg_name
   location            = var.location
-  resource_group_name = var.resource_group_name
+  resource_group_name = var.rg_name
 
 # The "security_rule" block is the one that repeats inside the NSG.
   dynamic "security_rule" {
